@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './banner.scss'
+import './Banner.scss'
 import { Axios } from '../../utils/axios/axios'
 import { getImage } from '../../utils/helper/common'
 import { requests } from '../../utils/constants/constants'
