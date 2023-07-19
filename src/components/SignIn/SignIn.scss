@@ -1,0 +1,39 @@
+.signIn{
+    max-width: 450px;
+    padding: 70px;
+    margin: auto auto;
+    background-color: var(--black);
+    form{
+        display: flex;
+        flex-direction: column;
+        input{
+            padding:5px 15px;
+            outline-width: 0;
+            height:40px;
+            border: none;
+            margin-bottom: 14px;
+        }
+        button{
+            padding: 16px 20px;
+            color: var(--white);
+            border: none;
+            background-color: var(--red);
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        h4{
+            text-align: left;
+            margin-top: 20px;
+            .newto_netflix{
+                color: gray;
+            }
+            .signUp_link:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        .error{
+            color: var(--red);
+        }
+    }
+}
