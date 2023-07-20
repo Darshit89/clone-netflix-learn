@@ -1,7 +1,7 @@
 import React from 'react'
 import { rows } from '../../utils/constants/constants'
 import Row from '../../components/Row/Row'
-import './homeScreen.scss'
+import './HomeScreen.scss'
 
 function HomeScreen() {
     return (

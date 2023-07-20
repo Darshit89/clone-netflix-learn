@@ -28,6 +28,7 @@ function Profile() {
                     <div className="profile_detail">
                         <h2>{user.email}</h2>
                         <div className="profile_plans">
+                            <h3>Plans (Current Plan: Premium)</h3>
                             <button className="profile_signOut" onClick={handleLogOut}>
                                 Sign Out
                             </button>
